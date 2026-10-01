@@ -9,6 +9,10 @@
 	},
 	"license": "MIT",
 	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AlainRichell/LittleCommitIconVSCode.git"
+	},
 	"engines": {
 		"vscode": "^1.0.0"
 	},
