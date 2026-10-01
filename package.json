@@ -8,6 +8,7 @@
 		"name": "Unresolute"
 	},
 	"license": "MIT",
+	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.0.0"
 	},
