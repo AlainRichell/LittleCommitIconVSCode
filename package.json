@@ -1,0 +1,46 @@
+{
+	"name": "little-commit-icon",
+	"displayName": "Little Commit Icon",
+	"description": "commit :)",
+	"version": "0.2.0",
+	"publisher": "Unresolute",
+	"author": {
+		"name": "Unresolute"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"commit",
+		"icon"
+	],
+	"main": "./extension.js",
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "littleCommitIconCommits",
+					"title": "Source Control",
+					"icon": "resources/commit.svg"
+				}
+			]
+		},
+		"views": {
+			"littleCommitIconCommits": [
+				{
+					"id": "littleCommitIconAnchor",
+					"name": "Little Commit Icon",
+					"type": "tree",
+					"visibility": "collapsed"
+				}
+			]
+		}
+	}
+}
